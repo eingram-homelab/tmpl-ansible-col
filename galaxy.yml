@@ -1,0 +1,53 @@
+---
+### REQUIRED
+
+# Namespace: alphanumeric lowercase + underscores, no leading underscores/numbers, no consecutive underscores
+namespace: eingram23
+
+# Collection name: same rules as namespace
+name: <COLLECTION_NAME>
+
+# Semantic versioning (MAJOR.MINOR.PATCH)
+version: 1.0.0
+
+# Path to README (relative to collection root)
+readme: README.md
+
+# Authors: "Full Name <email> (url) @nick"
+authors:
+- Edward Ingram <edward.ingram23@gmail.com>
+
+### OPTIONAL but strongly recommended
+
+description: <SHORT_DESCRIPTION>
+
+# SPDX license identifier — mutually exclusive with license_file
+license:
+- GPL-2.0-or-later
+# license_file: LICENSE
+
+# Tags for Galaxy indexing (same character rules as namespace/name)
+tags: []
+#  - networking
+#  - cloud
+#  - linux
+
+# Required collections: { "namespace.name": "version_range" }
+dependencies: {}
+#  ansible.posix: ">=1.4.0"
+#  community.general: ">=6.0.0"
+
+# SCM repository URL
+repository: https://github.com/eingram23/<COLLECTION_REPO>.git
+
+# Optional URLs
+documentation: ""
+homepage: ""
+issues: ""
+
+# Glob patterns for files/dirs to exclude from the build artifact
+build_ignore:
+- .ansible/
+- .github/
+- "*.tar.gz"
+- tests/output/

@@ -1,0 +1,18 @@
+---
+requires_ansible: ">=2.15.0"
+
+# Plugin routing - redirect or deprecate plugins
+# plugin_routing:
+#   modules:
+#     my_old_module:
+#       redirect: eingram23.homelab.my_new_module
+#     my_deprecated_module:
+#       deprecation:
+#         removal_version: "2.0.0"
+#         warning_text: Use eingram23.homelab.my_new_module instead.
+
+# Action groups for module defaults
+# action_groups:
+#   my_group:
+#     - eingram23.homelab.my_module1
+#     - eingram23.homelab.my_module2
